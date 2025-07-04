@@ -1,6 +1,6 @@
 <html>
 
-<!-- 
+<!--
 
 GET vs. POST
 Both GET and POST create an array (e.g. array( key => value, key2 => value2, key3 => value3, ...)). This array holds key/value pairs, where keys are the names of the form controls and values are the input data from the user.
@@ -34,5 +34,9 @@ Developers prefer POST for sending form data.
 Welcome <?php echo $_POST["user_name"]; ?><br>
 Your email address is: <?php echo $_POST["email"]; ?><br>
 Your password is: <?php echo crypt($_POST["pass_field"],"$1$45TY34512"); ?>
+
+echo "<br><a href="../login_session/home.php">Home</a>"
+echo "<br><a href="login.php">Log out</a>"
+
 </body>
 </html

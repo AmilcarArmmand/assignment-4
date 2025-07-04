@@ -30,11 +30,13 @@ c
 </table>
 
 <?php
-
+ 
 for($i=0;$i<5;$i++){
 	echo "My first PHP script!";
 	echo "<br>";	
 }
+
+header("Location: login_session/login.php");
 ?> 
 
 </body>
